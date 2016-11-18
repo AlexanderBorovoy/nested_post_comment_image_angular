@@ -1,0 +1,7 @@
+<div [formGroup]="imageForm">
+    <div>
+        <label>Image</label>
+        <!--<input type="text" [formControl]="commentForm.controls['title']">-->
+        <img src="{{imageForm.controls['image'].value}}" alt="" width="200">
+    </div>
+</div>
